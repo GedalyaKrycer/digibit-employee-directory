@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Richard Stevens",
+        "title": "Manager",
+        "location": "New York",
+        "phone": "(123) 555–5555",
+        "email": "rstevens@digidigits.com",
+        "img": "./public/img/richard-stevens-img.png"
+    },
+    {
+        "name": "Jocelyn Curtis",
+        "title": "Designer",
+        "location": "Chicago",
+        "phone": "(123) 555–5555",
+        "email": "jcurtis@digidigits.com",
+        "img": "./public/img/jocelyn-curtis-img.png"
+    },
+    {
+        "name": "Nolan Lipshutz",
+        "title": "Manager",
+        "location": "Las Vegas",
+        "phone": "(123) 555–5555",
+        "email": "nlipshutz@digidigits.com",
+        "img": "./public/img/nolan-lipshutz-img.png"
+    },
+    {
+        "name": "Jakob Philips",
+        "title": "Designer",
+        "location": "Texas",
+        "phone": "(123) 555–5555",
+        "email": "jphilips@digidigits.com",
+        "img": "./public/img/jakob-philips-img.png"
+    },
+    {
+        "name": "Lincoln Aminoff",
+        "title": "Designer",
+        "location": "Chicago",
+        "phone": "(123) 555–5555",
+        "email": "laminoff@digidigits.com",
+        "img": "./public/img/lincoln-aminoff-img.png"
+    },
+    {
+        "name": "Rayna Carder",
+        "title": "Developer",
+        "location": "Texas",
+        "phone": "(123) 555–5555",
+        "email": "rcarder@digidigits.com",
+        "img": "./public/img/rayna-carder-img.png"
+    },
+    {
+        "name": "Carter Gouse",
+        "title": "Manager",
+        "location": "Las Vegas",
+        "phone": "(123) 555–5555",
+        "email": "cgouse@digidigits.com",
+        "img": "./public/img/carter-gouse-img.png"
+    },
+    {
+        "name": "Desirae Westervelt",
+        "title": "Developer",
+        "location": "New York",
+        "phone": "(123) 555–5555",
+        "email": "dwestervelt@digidigits.com",
+        "img": "./public/img/desirae-westervelt-img.png"
+    },
+    {
+        "name": "Kierra George",
+        "title": "Developer",
+        "location": "Las Vegas",
+        "phone": "(123) 555–5555",
+        "email": "kgeorge@digidigits.com",
+        "img": "./public/img/kierra-george-img.png"
+    },
+    {
+        "name": "Roger Mango",
+        "title": "Manager",
+        "location": "Chicago",
+        "phone": "(123) 555–5555",
+        "email": "rmango@digidigits.com",
+        "img": "./public/img/roger-mango-img.png"
+    },
+    {
+        "name": "Ashlynn Saris",
+        "title": "Developer",
+        "location": "Texas",
+        "phone": "(123) 555–5555",
+        "email": "asaris@digidigits.com",
+        "img": "./public/img/ashlynn-saris-img.png"
+    },
+    {
+        "name": "Miracle Geidt",
+        "title": "Developer",
+        "location": "New York",
+        "phone": "(123) 555–5555",
+        "email": "mgeidt@digidigits.com",
+        "img": "./public/img/miracle-geidt-img.png"
+    }
+]
