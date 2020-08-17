@@ -11,6 +11,7 @@ body {
 h1 {
   font-size: 56px;
   font-weight: 400;
+  margin-top: 30px;
 }
 
 h2 {
@@ -35,4 +36,31 @@ p {
   font-family: 'lato', -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
+}
+
+/* Colors */
+.bg-color {
+  background-color: #143634;
+}
+.bg-lighter-color {
+  background-color: #1B4644;
+}
+.bg-lightest-color {
+  background-color: #326360;
+}
+.text-color {
+  color: #4CE0D2;
+}
+.interactive-color {
+  color: #86E1FF;
+}
+
+
+/* —————————————————————————————————————————————
+MEDIA QUERIES 
+————————————————————————————————————————————— */
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 46px;
+  }
 }

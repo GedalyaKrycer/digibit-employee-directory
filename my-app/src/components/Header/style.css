@@ -1,0 +1,15 @@
+.bg--image {
+   background-image: url("../../img/background-hero.jpg"); 
+   height: 260px;
+   padding-top: 35px;
+}
+
+.github-icon {
+    font-size: 30px;
+    color: #86E1FF;
+}
+
+.github-icon:hover {
+    opacity: .5;
+    transition: ease-in .2s;
+}
