@@ -1,5 +1,7 @@
 .bg--image {
-   background-image: url("../../img/background-hero.jpg"); 
+   background: 
+    linear-gradient(180deg, rgba(20, 54, 52, 0.88) 0%, #143634 100%), 
+    url("../../img/background-hero.jpg"); 
    height: 260px;
    padding-top: 35px;
 }
