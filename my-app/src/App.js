@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Logo from './img/digibits-logo.svg';
+import { FaGithub } from 'react-icons/fa';
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
           <img src={Logo} alt="DigiBit Logo" />
         </Navbar.Brand>
         <Nav>
-          <Nav.Link href="#features">Features</Nav.Link>
+          <Nav.Link href="https://github.com/GedalyaKrycer"><FaGithub /></Nav.Link>
         </Nav>
       </Navbar>
       <h1>Team Directory</h1>
