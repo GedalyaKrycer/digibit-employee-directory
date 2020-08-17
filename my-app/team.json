@@ -6,7 +6,7 @@
         "location": "New York",
         "phone": "(123) 555–5555",
         "email": "rstevens@digidigits.com",
-        "img": "./public/img/richard-stevens-img.png"
+        "img": "./src/img/richard-stevens-img.png"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "location": "Chicago",
         "phone": "(123) 555–5555",
         "email": "jcurtis@digidigits.com",
-        "img": "./public/img/jocelyn-curtis-img.png"
+        "img": "./src/img/jocelyn-curtis-img.png"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "location": "Las Vegas",
         "phone": "(123) 555–5555",
         "email": "nlipshutz@digidigits.com",
-        "img": "./public/img/nolan-lipshutz-img.png"
+        "img": "./src/img/nolan-lipshutz-img.png"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "location": "Texas",
         "phone": "(123) 555–5555",
         "email": "jphilips@digidigits.com",
-        "img": "./public/img/jakob-philips-img.png"
+        "img": "./src/img/jakob-philips-img.png"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "location": "Chicago",
         "phone": "(123) 555–5555",
         "email": "laminoff@digidigits.com",
-        "img": "./public/img/lincoln-aminoff-img.png"
+        "img": "./src/img/lincoln-aminoff-img.png"
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "location": "Texas",
         "phone": "(123) 555–5555",
         "email": "rcarder@digidigits.com",
-        "img": "./public/img/rayna-carder-img.png"
+        "img": "./src/img/rayna-carder-img.png"
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "location": "Las Vegas",
         "phone": "(123) 555–5555",
         "email": "cgouse@digidigits.com",
-        "img": "./public/img/carter-gouse-img.png"
+        "img": "./src/img/carter-gouse-img.png"
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "location": "New York",
         "phone": "(123) 555–5555",
         "email": "dwestervelt@digidigits.com",
-        "img": "./public/img/desirae-westervelt-img.png"
+        "img": "./src/img/desirae-westervelt-img.png"
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "location": "Las Vegas",
         "phone": "(123) 555–5555",
         "email": "kgeorge@digidigits.com",
-        "img": "./public/img/kierra-george-img.png"
+        "img": "./src/img/kierra-george-img.png"
     },
     {
         "id": 10,
@@ -87,7 +87,7 @@
         "location": "Chicago",
         "phone": "(123) 555–5555",
         "email": "rmango@digidigits.com",
-        "img": "./public/img/roger-mango-img.png"
+        "img": "./src/img/roger-mango-img.png"
     },
     {
         "id": 11,
@@ -96,7 +96,7 @@
         "location": "Texas",
         "phone": "(123) 555–5555",
         "email": "asaris@digidigits.com",
-        "img": "./public/img/ashlynn-saris-img.png"
+        "img": "./src/img/ashlynn-saris-img.png"
     },
     {
         "id": 12,
@@ -105,6 +105,6 @@
         "location": "New York",
         "phone": "(123) 555–5555",
         "email": "mgeidt@digidigits.com",
-        "img": "./public/img/miracle-geidt-img.png"
+        "img": "./src/img/miracle-geidt-img.png"
     }
 ]
