@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "name": "Richard Stevens",
         "title": "Manager",
         "location": "New York",
@@ -8,6 +9,7 @@
         "img": "./public/img/richard-stevens-img.png"
     },
     {
+        "id": 2,
         "name": "Jocelyn Curtis",
         "title": "Designer",
         "location": "Chicago",
@@ -16,6 +18,7 @@
         "img": "./public/img/jocelyn-curtis-img.png"
     },
     {
+        "id": 3,
         "name": "Nolan Lipshutz",
         "title": "Manager",
         "location": "Las Vegas",
@@ -24,6 +27,7 @@
         "img": "./public/img/nolan-lipshutz-img.png"
     },
     {
+        "id": 4,
         "name": "Jakob Philips",
         "title": "Designer",
         "location": "Texas",
@@ -32,6 +36,7 @@
         "img": "./public/img/jakob-philips-img.png"
     },
     {
+        "id": 5,
         "name": "Lincoln Aminoff",
         "title": "Designer",
         "location": "Chicago",
@@ -40,6 +45,7 @@
         "img": "./public/img/lincoln-aminoff-img.png"
     },
     {
+        "id": 6,
         "name": "Rayna Carder",
         "title": "Developer",
         "location": "Texas",
@@ -48,6 +54,7 @@
         "img": "./public/img/rayna-carder-img.png"
     },
     {
+        "id": 7,
         "name": "Carter Gouse",
         "title": "Manager",
         "location": "Las Vegas",
@@ -56,6 +63,7 @@
         "img": "./public/img/carter-gouse-img.png"
     },
     {
+        "id": 8,
         "name": "Desirae Westervelt",
         "title": "Developer",
         "location": "New York",
@@ -64,6 +72,7 @@
         "img": "./public/img/desirae-westervelt-img.png"
     },
     {
+        "id": 9,
         "name": "Kierra George",
         "title": "Developer",
         "location": "Las Vegas",
@@ -72,6 +81,7 @@
         "img": "./public/img/kierra-george-img.png"
     },
     {
+        "id": 10,
         "name": "Roger Mango",
         "title": "Manager",
         "location": "Chicago",
@@ -80,6 +90,7 @@
         "img": "./public/img/roger-mango-img.png"
     },
     {
+        "id": 11,
         "name": "Ashlynn Saris",
         "title": "Developer",
         "location": "Texas",
@@ -88,6 +99,7 @@
         "img": "./public/img/ashlynn-saris-img.png"
     },
     {
+        "id": 12,
         "name": "Miracle Geidt",
         "title": "Developer",
         "location": "New York",
