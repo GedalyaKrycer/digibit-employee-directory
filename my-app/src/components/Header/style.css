@@ -2,7 +2,8 @@
    background: 
     linear-gradient(180deg, rgba(20, 54, 52, 0.88) 0%, #143634 100%), 
     url("../../img/background-hero.jpg"); 
-   height: 260px;
+   background-size: cover;
+   height: 320px;
    padding-top: 35px;
 }
 
