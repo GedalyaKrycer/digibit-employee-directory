@@ -29,8 +29,6 @@ Build an employee directory webpage from scratch using React.
 
 * Fix icon color bug on search bar 
 
-* Center navigation block on tablet size
-
 * Program search through a list of people's names (autocomplete list)
 
 * Sort through names in alphabetical order and in reverse 
@@ -44,4 +42,3 @@ Build an employee directory webpage from scratch using React.
 * Have all filters, search and alphibetical order reset on the "reset" button
 
 * Lazy load images (?)
-
