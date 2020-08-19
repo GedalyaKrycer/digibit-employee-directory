@@ -2,6 +2,7 @@ import React from 'react';
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Filters from "./components/Filters";
+import CardWrapper from "./components/CardWrapper";
 import TeamCard from "./components/TeamCard";
 
 
@@ -11,12 +12,14 @@ function App() {
       <Header />
       <Main>
         <Filters />
-        <TeamCard />
+        <CardWrapper>
+          <TeamCard />
+          <TeamCard />
+          <TeamCard />
+          <TeamCard />
+        </CardWrapper>
 
-        <h2>Jocelyn Curtis</h2>
-        <h3>Designer</h3>
-        <h4>Location</h4>
-        <p>jcurtis@digidigits.com</p>
+
       </Main>
 
 

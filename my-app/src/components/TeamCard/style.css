@@ -1,92 +1,33 @@
-.dropdown, 
-.btn,
-.search-input {
-  font-family: 'lato', -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #86E1FF;
-  background-color: #326360;
-  border: none;
-}
-
-.btn {
-  padding: .65rem .75rem;
-}
-
-.border-radius {
-  border-radius: 0 10px 10px 0;
-}
-
-.btn:hover {
-  background-color: #1B4644;
-  color: #86E1FF;
-}
-.btn:focus {
-  background-color: #1B4644;
-  color: #86E1FF;
-}
-
-.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
-  color: #1B4644;
-  background-color: #86E1FF;
-}
-
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle:active {
-  color: #1B4644;
-  background-color: #86E1FF;
-}
-
-.margin {
+.card-container {
+  background: #112b2a;
+  border-radius: 18px;
+  -webkit-box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.15);
+     -moz-box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.15);
+          box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.15);
   margin-bottom: 20px;
+  width: 265px;
 }
 
-/* Search */
-.form-control {
-  padding: 22px 0 22px 2.5rem;
-}
-
-.has-search .form-control-feedback {
-  position: absolute;
-  z-index: 2;
-  display: block;
-  top: 16px;
-  left: 32px;
-  font-size: 14px;
+.card-intro {
   text-align: center;
-  pointer-events: none;
+  padding: 50px 10px 20px;
+}
+
+hr {
+  border-top: 3px solid rgba(0,0,0,.1);
+}
+
+
+.card-contact {
+  padding: 15px 0 20px;
+}
+
+li {
   color: #86E1FF;
+  list-style: none;
+  margin-bottom: 15px;
 }
 
-.search-input::placeholder {
-  color: #86E1FF;
-}
-
-.search-input {
-  border-radius: 50px;
-}
-
-.search-input:focus,
-.search-icon:focus {
-  background-color: #86E1FF;
-  color: #1B4644;
-}
-
-
-
-
-@media only screen and (max-width: 768px) {
-  .button-group {
-    display: flex;
-    justify-content: center;
-  }
-
-  .full-width {
-    width: 100%;
-  }
-
- 
-
-  .third-width {
-    width: 33.33%;
-  }
+a {
+  padding-left: 10px;
 }
