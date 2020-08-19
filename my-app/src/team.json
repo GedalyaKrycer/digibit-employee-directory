@@ -6,7 +6,7 @@
         "location": "New York",
         "phone": "(516) 555–1234",
         "email": "rstevens@digidigits.com",
-        "img": "./img/richard-stevens-img.png"
+        "img": "https://raw.githubusercontent.com/GedalyaKrycer/unit-19-react-homework-employee-directory/master/my-app/src/img/richard-stevens-img.png"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "location": "Chicago",
         "phone": "(312) 555–5678",
         "email": "jcurtis@digidigits.com",
-        "img": "./img/jocelyn-curtis-img.png"
+        "img": "https://raw.githubusercontent.com/GedalyaKrycer/unit-19-react-homework-employee-directory/master/my-app/src/img/jocelyn-curtis-img.png"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "location": "Las Vegas",
         "phone": "(702) 555–9101",
         "email": "nlipshutz@digidigits.com",
-        "img": "./img/nolan-lipshutz-img.png"
+        "img": "https://raw.githubusercontent.com/GedalyaKrycer/unit-19-react-homework-employee-directory/master/my-app/src/img/nolan-lipshutz-img.png"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "location": "Texas",
         "phone": "(214) 555–1213",
         "email": "jphilips@digidigits.com",
-        "img": "./img/jakob-philips-img.png"
+        "img": "https://raw.githubusercontent.com/GedalyaKrycer/unit-19-react-homework-employee-directory/master/my-app/src/img/jakob-philips-img.png"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "location": "Chicago",
         "phone": "(312) 555–1516",
         "email": "laminoff@digidigits.com",
-        "img": "./img/lincoln-aminoff-img.png"
+        "img": "https://raw.githubusercontent.com/GedalyaKrycer/unit-19-react-homework-employee-directory/master/my-app/src/img/lincoln-aminoff-img.png"
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "location": "Texas",
         "phone": "(214) 555–1718",
         "email": "rcarder@digidigits.com",
-        "img": "./img/rayna-carder-img.png"
+        "img": "https://raw.githubusercontent.com/GedalyaKrycer/unit-19-react-homework-employee-directory/master/my-app/src/img/rayna-carder-img.png"
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "location": "Las Vegas",
         "phone": "(702) 555–1920",
         "email": "cgouse@digidigits.com",
-        "img": "./img/carter-gouse-img.png"
+        "img": "https://raw.githubusercontent.com/GedalyaKrycer/unit-19-react-homework-employee-directory/master/my-app/src/img/carter-gouse-img.png"
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "location": "New York",
         "phone": "(516) 555–2122",
         "email": "dwestervelt@digidigits.com",
-        "img": "./img/desirae-westervelt-img.png"
+        "img": "https://raw.githubusercontent.com/GedalyaKrycer/unit-19-react-homework-employee-directory/master/my-app/src/img/desirae-westervelt-img.png"
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "location": "Las Vegas",
         "phone": "(702) 555–2324",
         "email": "kgeorge@digidigits.com",
-        "img": "./img/kierra-george-img.png"
+        "img": "https://raw.githubusercontent.com/GedalyaKrycer/unit-19-react-homework-employee-directory/master/my-app/src/img/kierra-george-img.png"
     },
     {
         "id": 10,
@@ -87,7 +87,7 @@
         "location": "Chicago",
         "phone": "(312) 555–2526",
         "email": "rmango@digidigits.com",
-        "img": "./img/roger-mango-img.png"
+        "img": "https://raw.githubusercontent.com/GedalyaKrycer/unit-19-react-homework-employee-directory/master/my-app/src/img/roger-mango-img.png"
     },
     {
         "id": 11,
@@ -96,7 +96,7 @@
         "location": "Texas",
         "phone": "(214) 555–2728",
         "email": "asaris@digidigits.com",
-        "img": "./img/ashlynn-saris-img.png"
+        "img": "https://raw.githubusercontent.com/GedalyaKrycer/unit-19-react-homework-employee-directory/master/my-app/src/img/ashlynn-saris-img.png"
     },
     {
         "id": 12,
@@ -105,6 +105,6 @@
         "location": "New York",
         "phone": "(516) 555–2930",
         "email": "mgeidt@digidigits.com",
-        "img": "./img/miracle-geidt-img.png"
+        "img": "https://raw.githubusercontent.com/GedalyaKrycer/unit-19-react-homework-employee-directory/master/my-app/src/img/miracle-geidt-img.png"
     }
 ]
