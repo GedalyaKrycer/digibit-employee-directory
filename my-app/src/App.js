@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from "./components/Header";
 import Main from "./components/Main";
-import Filters from "./components/Filters";
+import FilterBar from "./components/FilterBar";
 import CardWrapper from "./components/CardWrapper";
 import TeamCard from "./components/TeamCard";
 import teamArray from "./team.json";
@@ -13,7 +13,7 @@ function App() {
     <>
       <Header />
       <Main>
-        <Filters />
+        <FilterBar />
         <CardWrapper>
           {teamArray.map(person => (
             <TeamCard
