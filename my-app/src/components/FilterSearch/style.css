@@ -35,8 +35,15 @@
   border-radius: 50px;
 }
 
-.search-input:focus,
-.search-icon:focus {
+.search-input:focus  {
   background-color: #86E1FF;
   color: #1B4644;
+  
 }
+
+/* .search-input:focus + svg  {
+  background-color: #86E1FF;
+  color: #1B4644;
+  fill: #1B4644;
+} */
+
