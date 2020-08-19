@@ -88,19 +88,17 @@
 
 
 
+
 @media only screen and (max-width: 768px) {
   .button-group {
     display: flex;
     justify-content: center;
   }
 
+  
+
   .full-width {
     width: 100%;
   }
 
- 
-
-  .third-width {
-    width: 33.33%;
-  }
 }
