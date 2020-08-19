@@ -4,107 +4,107 @@
         "name": "Richard Stevens",
         "title": "Manager",
         "location": "New York",
-        "phone": "(123) 555–5555",
+        "phone": "(516) 555–1234",
         "email": "rstevens@digidigits.com",
-        "img": "./src/img/richard-stevens-img.png"
+        "img": "./img/richard-stevens-img.png"
     },
     {
         "id": 2,
         "name": "Jocelyn Curtis",
         "title": "Designer",
         "location": "Chicago",
-        "phone": "(123) 555–5555",
+        "phone": "(312) 555–5678",
         "email": "jcurtis@digidigits.com",
-        "img": "./src/img/jocelyn-curtis-img.png"
+        "img": "./img/jocelyn-curtis-img.png"
     },
     {
         "id": 3,
         "name": "Nolan Lipshutz",
         "title": "Manager",
         "location": "Las Vegas",
-        "phone": "(123) 555–5555",
+        "phone": "(702) 555–9101",
         "email": "nlipshutz@digidigits.com",
-        "img": "./src/img/nolan-lipshutz-img.png"
+        "img": "./img/nolan-lipshutz-img.png"
     },
     {
         "id": 4,
         "name": "Jakob Philips",
         "title": "Designer",
         "location": "Texas",
-        "phone": "(123) 555–5555",
+        "phone": "(214) 555–1213",
         "email": "jphilips@digidigits.com",
-        "img": "./src/img/jakob-philips-img.png"
+        "img": "./img/jakob-philips-img.png"
     },
     {
         "id": 5,
         "name": "Lincoln Aminoff",
         "title": "Designer",
         "location": "Chicago",
-        "phone": "(123) 555–5555",
+        "phone": "(312) 555–1516",
         "email": "laminoff@digidigits.com",
-        "img": "./src/img/lincoln-aminoff-img.png"
+        "img": "./img/lincoln-aminoff-img.png"
     },
     {
         "id": 6,
         "name": "Rayna Carder",
         "title": "Developer",
         "location": "Texas",
-        "phone": "(123) 555–5555",
+        "phone": "(214) 555–1718",
         "email": "rcarder@digidigits.com",
-        "img": "./src/img/rayna-carder-img.png"
+        "img": "./img/rayna-carder-img.png"
     },
     {
         "id": 7,
         "name": "Carter Gouse",
         "title": "Manager",
         "location": "Las Vegas",
-        "phone": "(123) 555–5555",
+        "phone": "(702) 555–1920",
         "email": "cgouse@digidigits.com",
-        "img": "./src/img/carter-gouse-img.png"
+        "img": "./img/carter-gouse-img.png"
     },
     {
         "id": 8,
         "name": "Desirae Westervelt",
         "title": "Developer",
         "location": "New York",
-        "phone": "(123) 555–5555",
+        "phone": "(516) 555–2122",
         "email": "dwestervelt@digidigits.com",
-        "img": "./src/img/desirae-westervelt-img.png"
+        "img": "./img/desirae-westervelt-img.png"
     },
     {
         "id": 9,
         "name": "Kierra George",
         "title": "Developer",
         "location": "Las Vegas",
-        "phone": "(123) 555–5555",
+        "phone": "(702) 555–2324",
         "email": "kgeorge@digidigits.com",
-        "img": "./src/img/kierra-george-img.png"
+        "img": "./img/kierra-george-img.png"
     },
     {
         "id": 10,
         "name": "Roger Mango",
         "title": "Manager",
         "location": "Chicago",
-        "phone": "(123) 555–5555",
+        "phone": "(312) 555–2526",
         "email": "rmango@digidigits.com",
-        "img": "./src/img/roger-mango-img.png"
+        "img": "./img/roger-mango-img.png"
     },
     {
         "id": 11,
         "name": "Ashlynn Saris",
         "title": "Developer",
         "location": "Texas",
-        "phone": "(123) 555–5555",
+        "phone": "(214) 555–2728",
         "email": "asaris@digidigits.com",
-        "img": "./src/img/ashlynn-saris-img.png"
+        "img": "./img/ashlynn-saris-img.png"
     },
     {
         "id": 12,
         "name": "Miracle Geidt",
         "title": "Developer",
         "location": "New York",
-        "phone": "(123) 555–5555",
+        "phone": "(516) 555–2930",
         "email": "mgeidt@digidigits.com",
-        "img": "./src/img/miracle-geidt-img.png"
+        "img": "./img/miracle-geidt-img.png"
     }
 ]

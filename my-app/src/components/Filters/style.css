@@ -40,6 +40,20 @@
   margin-bottom: 20px;
 }
 
+.dropdown-menu {
+  background-color: #326360;
+  transition: ease .2s;
+}
+
+.dropdown-item {
+  color: #86E1FF;
+}
+
+.dropdown-item:hover {
+  background-color: #1B4644;
+  color: #86E1FF;
+}
+
 /* Search */
 .form-control {
   padding: 22px 0 22px 2.5rem;
