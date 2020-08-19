@@ -1,13 +1,11 @@
 import React from 'react';
 import './style.css';
-import {
-    ButtonGroup,
-    Button,
-    DropdownButton,
-    Dropdown
-} from 'react-bootstrap'
+import ButtonGroup from 'react-bootstrap/ButtonGroup'
+import Button from 'react-bootstrap/Button'
+import DropdownButton from 'react-bootstrap/DropdownButton'
+import Dropdown from 'react-bootstrap/Dropdown'
 
-
+// This button group allows the user to filter names from A-Z, Z-A, filter by Job Title, filter by Location Title, and reset all values.
 function FilterBtnGroup() {
     return (
         <ButtonGroup className="margin full-width">

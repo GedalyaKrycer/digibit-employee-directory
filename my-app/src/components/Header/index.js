@@ -6,6 +6,7 @@ import Logo from '../../img/digibits-logo.svg';
 import { FaGithub } from 'react-icons/fa';
 import './style.css';
 
+// This is static top section of the page and gives it semantic value.
 function Header() {
     return (
         <header className="bg--image">
