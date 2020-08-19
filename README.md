@@ -21,6 +21,8 @@ Build an employee directory webpage from scratch using React.
 
 * React project uses `react-bootstrap`, custom css and `Flexbox` to address styling and make responsive.  
 
+* Used `rel="noopener noreferrer"` on `<a>` elements to protect against `target="_blank"` allowing outside pages access to the `window.opener` object. 
+
 
 
 ## In Progress
