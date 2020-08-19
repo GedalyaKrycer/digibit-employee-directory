@@ -30,11 +30,13 @@ function Filters() {
                         <Dropdown.Item eventKey="2">Designer</Dropdown.Item>
                         <Dropdown.Item eventKey="3">Developer</Dropdown.Item>
                     </DropdownButton>
+
                     <DropdownButton as={ButtonGroup} title="Location" id="bg-nested-dropdown" className="border-radius third-width">
                         <Dropdown.Item eventKey="1">New York</Dropdown.Item>
                         <Dropdown.Item eventKey="2">Las Vegas</Dropdown.Item>
                         <Dropdown.Item eventKey="3">Chicago</Dropdown.Item>
                     </DropdownButton>
+                    <Button className="third-width">Reset</Button>
                 </ButtonGroup>
             </Col>
 
