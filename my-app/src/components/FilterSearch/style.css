@@ -28,7 +28,7 @@
 }
 
 .search-input::placeholder {
-  color: #86E1FF;
+  color: rgba(133, 224, 255, 0.7);
 }
 
 .search-input {
@@ -36,14 +36,11 @@
 }
 
 .search-input:focus  {
-  background-color: #86E1FF;
-  color: #1B4644;
+  background-color: #112b2a;
+  color: #86E1FF;
+  
   
 }
 
-/* .search-input:focus + svg  {
-  background-color: #86E1FF;
-  color: #1B4644;
-  fill: #1B4644;
-} */
+
 

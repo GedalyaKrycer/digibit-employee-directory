@@ -5,8 +5,6 @@ import Form from 'react-bootstrap/Form'
 
 // This allows the user to search via the team names and features an auto-completed list
 function FilterSearch() {
-
-
     return (
         <Form className="has-search margin">
             <FaSearch className="form-control-feedback search-icon" />
@@ -14,6 +12,5 @@ function FilterSearch() {
         </Form>
     )
 }
-
 
 export default FilterSearch;

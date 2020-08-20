@@ -8,14 +8,17 @@ import teamArray from "./team.json";
 
 
 function App() {
-  // const [team, setTeam] = useState();
+  const [team, setTeam] = useState(
+    teamArray
+  );
+
   return (
     <>
       <Header />
       <Main>
         <FilterBar />
         <CardWrapper>
-          {teamArray.map(person => (
+          {team.map(person => (
             <TeamCard
               key={person.id}
               img={person.img}
@@ -27,15 +30,17 @@ function App() {
             />
           ))}
         </CardWrapper>
-
-
       </Main>
-
-
-
-
     </>
   );
 }
 
 export default App;
+
+
+
+
+const sort = arr => arr.sort((a, b) => a - b);
+//By default,the sort() function sorts values as strings.Fix this by providing a compare function.
+// Example
+sort([1, 5, 2, 4, 3]);      // [1, 2, 3, 4, 5]
