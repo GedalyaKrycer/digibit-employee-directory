@@ -19,6 +19,7 @@ h2 {
   font-size: 28px;
   font-weight: 500;
   margin-top: 20px;
+  text-transform: capitalize;
 }
 
 h3 {

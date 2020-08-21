@@ -5,6 +5,9 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 
 
 function TeamCard({ name, title, location, phone, email, img }) {
+
+    
+
     return (
         <div className="card-container">
             <div className="card-intro text-color">

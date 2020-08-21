@@ -22,7 +22,7 @@ function App() {
     }
 
     const results = team.filter(person =>
-      person.name.toLowerCase().includes(search)
+      person.name.includes(search.toLowerCase())
     );
     setTeam(results);
 
@@ -30,10 +30,6 @@ function App() {
   }, [search])
 
 
-
-  // const dynamicSearch = () => {
-  //   return 
-  // }
 
 
   return (
