@@ -11,7 +11,6 @@ function App() {
   const [team, setTeam] = useState(teamArray);
 
   const [search, setSearch] = useState('');
-  // const [searchResults, setSearchResults] = useState([]);
 
   const handleInputChange = event => {
     setSearch(event.target.value);
