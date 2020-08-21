@@ -41,12 +41,24 @@ Build an employee directory webpage from scratch using React.
 
 * Dropdowns filter team members by their titles or by their location
 
+* Team images **lazy load** in
+
 ---
 
 ## Demos
-Coming Soon
 
-## In Progress
+#### Responsive Design
+![Responsive Demo](./assets/demo-gifs/responsive-layout-demo.gif)
 
 
-* Lazy load images
+#### Search By Name
+![Search Demo](./assets/demo-gifs/search-demo.gif)
+
+#### Search Validation
+![Search Validation Demo](./assets/demo-gifs/search-validation-demo.gif)
+
+#### Filter Names in Alphabetical order / Title / Location / Reset 
+![Filtering Demo](./assets/demo-gifs/filtering-demo.gif)
+
+#### Lazy Load For Team Images 
+![Lazy Load Demo](./assets/demo-gifs/lazyload-demo.gif)
