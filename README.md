@@ -34,7 +34,7 @@ Build an employee directory webpage from scratch using React.
 
     * If the input value is a special character or number, a warning message is provided and the input does not go through. Instead all the team members are reloaded. 
 
-    * If the input value does not match any values is a special character or number, a warning message is provided and the input does not go through. Instead all the team members are reloaded. 
+    * If the search result does not match a name or the user filters down to no more team memebers, a helper message appears telling them to hit "Reset" and/or try a different name.
 
 * Reset button clears out search field and displays the original team cards.
 
