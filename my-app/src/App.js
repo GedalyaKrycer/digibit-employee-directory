@@ -20,6 +20,9 @@ function App() {
   // Handles the name sorting state
   const [nameSort, setNameSort] = useState("AZ");
 
+  // Handles the Dropdown filtering state
+  const [dropdownFilter, setDropdownFilter] = useState("");
+
   // Sets the Search State based on the search input
   const handleInputChange = event => {
     setSearch(event.target.value);
@@ -52,12 +55,6 @@ function App() {
 
   }, [search])
 
-  // Resets to all the team cards
-  const resetTeam = () => {
-    setTeam(teamArray);
-    setSearch("");
-    console.log("ResetTeam function ran");
-  }
 
 
   const sortNames = () => {
@@ -76,6 +73,55 @@ function App() {
   }
 
 
+  // Filters based on dropdown selected 
+  const handleSelectDropdown = (eventKey) => {
+    switch (eventKey) {
+      case "Manager":
+        setTeam(team.filter(person =>
+          person.title.includes("Manager")
+        ));
+        break;
+      case "Designer":
+        setTeam(team.filter(person =>
+          person.title.includes("Designer")
+        ));
+        break;
+      case "Developer":
+        setTeam(team.filter(person =>
+          person.title.includes("Developer")
+        ));
+        break;
+      case "New York":
+        setTeam(team.filter(person =>
+          person.location.includes("New York")
+        ));
+        break;
+      case "Las Vegas":
+        setTeam(team.filter(person =>
+          person.location.includes("Las Vegas")
+        ));
+        break;
+      case "Chicago":
+        setTeam(team.filter(person =>
+          person.location.includes("Chicago")
+        ));
+        break;
+      default:
+        resetTeam();
+        return;
+
+    }
+  }
+
+
+  // Resets to all the team cards
+  const resetTeam = () => {
+    setTeam(teamArray);
+    setSearch("");
+  }
+
+
+
   return (
     <>
       <Header />
@@ -85,11 +131,12 @@ function App() {
           handleInputChange={handleInputChange}
           resetBtn={resetTeam}
           sortBtn={sortNames}
-          children={nameSort === "AZ" ? "Sort A–Z" : "Sort Z–A"}/>
+          children={nameSort === "AZ" ? "Sort A–Z" : "Sort Z–A"}
+          handleSelectDropdown={handleSelectDropdown} />
 
         {/* Validation */}
         {warning === false ? null : <h4>Woops, please use letters only. Numbers or special characters won't display results.</h4>}
-        {team.length === 0 ? <h4>Looks like we don't have a team member by that name. Please try a different name.</h4> : null}
+        {team.length === 0 ? <h4>Looks like we don't have this team member. Please try a different name or hit "Reset".</h4> : null}
 
         <CardWrapper>
           {team.map(person => (
