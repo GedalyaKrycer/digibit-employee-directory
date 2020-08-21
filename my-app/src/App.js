@@ -17,12 +17,15 @@ function App() {
     setSearch(event.target.value);
   };
 
-
+  // Runs the first time the app starts or a new search term is provided
   useEffect(() => {
+
+    // When the search field (state) is empty the orginal team array is loaded
     if (!search) {
       return setTeam(teamArray);
     }
 
+    // Validates that the input is not a valid letter. If so it sets the warning boolean to true, resets the team array and clears the search field, before returning 
     if (!/^[a-zA-Z]*$/g.test(search)) {
       setSearch("");
       setTeam(teamArray);
@@ -31,6 +34,7 @@ function App() {
 
     }
 
+    // Powers the search to only show the people that match the search value state
     const results = team.filter(person =>
       person.name.includes(search.toLowerCase())
     );
@@ -54,7 +58,7 @@ function App() {
         {/* Validation */}
         {warning === false ? null : <h4>Woops, please use letters only. Numbers or special characters won't display results.</h4>}
         {team.length === 0 ? <h4>Looks like we don't have a team member by that name. Please try a different name.</h4> : null}
-        
+
         <CardWrapper>
           {team.map(person => (
             <TeamCard

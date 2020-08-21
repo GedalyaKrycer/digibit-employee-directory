@@ -5,7 +5,7 @@ Build an employee directory webpage from scratch using React.
 
 ## Highlights
 
-* Features a factitious custom logo and color scheme that I designed for this project. 
+* Features a custom logo and color scheme that I designed for this project. 
 
 * Colors pass WCAG AAA Level Contrast Ratio standard for color.
 
@@ -23,11 +23,20 @@ Build an employee directory webpage from scratch using React.
 
 * Used `rel="noopener noreferrer"` on `<a>` elements to protect against `target="_blank"` allowing outside pages access to the `window.opener` object. 
 
+* `useState` and `useEffect` hooks are used to control search and filtering functionality. 
+
+* Search features multiple kinds of validation 
+
+    * All input values are converted to lowercase, so that it matches the JSON name value. 
+
+    * If the input value is a special character or number, a warning message is provided and the input does not go through. Instead all the team members are reloaded. 
+
+    * If the input value does not match any values is a special character or number, a warning message is provided and the input does not go through. Instead all the team members are reloaded. 
+
 
 
 ## In Progress
 
-* Program search through people's names 
 
 * Sort through names in alphabetical order and in reverse 
 
