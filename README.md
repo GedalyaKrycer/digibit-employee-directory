@@ -35,13 +35,12 @@ Build an employee directory webpage from scratch using React.
 
 * Reset button clears out search field and displays the original team cards.
 
+* Sorting button puts the team members in alphabetical and reverse alphabetical order, based on name. 
+    
+    * Text in the button changes based on the sorting method selected. 
+
 
 ## In Progress
-
-
-* Sort through names in alphabetical order and in reverse 
-
-    * Sort order dynamically changes the text on the button. _Example: **A–Z Sort** vs **Z–A Sort**_
 
 * Have Jobs types filter via dropdown
 
