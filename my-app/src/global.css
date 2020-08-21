@@ -32,7 +32,13 @@ h3 {
 h4 {
   font-family: 'lato', -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   font-size: 18px;
+  /* font-style: italic; */
   font-weight: 400;
+  color: #dad524;
+  border: 1px rgba(218, 213, 36, .50) solid;
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
 }
 
 p, 
