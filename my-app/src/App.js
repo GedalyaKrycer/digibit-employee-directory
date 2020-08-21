@@ -8,12 +8,19 @@ import teamArray from "./team.json";
 
 
 function App() {
+  // Handles which cards get wrapped to
   const [team, setTeam] = useState(teamArray);
 
+  // Handles the search state
   const [search, setSearch] = useState('');
+
+  // Handles the warning validations for search
   const [warning, setWarning] = useState(false);
+
+  // Handles the name sorting state
   const [nameSort, setNameSort] = useState("AZ");
 
+  // Sets the Search State based on the search input
   const handleInputChange = event => {
     setSearch(event.target.value);
   };
@@ -78,7 +85,7 @@ function App() {
           handleInputChange={handleInputChange}
           resetBtn={resetTeam}
           sortBtn={sortNames}
-        />
+          children={nameSort === "AZ" ? "Sort A–Z" : "Sort Z–A"}/>
 
         {/* Validation */}
         {warning === false ? null : <h4>Woops, please use letters only. Numbers or special characters won't display results.</h4>}

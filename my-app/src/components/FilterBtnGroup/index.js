@@ -6,10 +6,10 @@ import DropdownButton from 'react-bootstrap/DropdownButton'
 import Dropdown from 'react-bootstrap/Dropdown'
 
 // This button group allows the user to filter names from A-Z, Z-A, filter by Job Title, filter by Location Title, and reset all values.
-function FilterBtnGroup({ sortBtn, resetBtn }) {
+function FilterBtnGroup({ sortBtn, resetBtn, children }) {
     return (
         <ButtonGroup className="margin full-width">
-            <Button onClick={sortBtn}>A-Z Sort</Button>
+            <Button onClick={sortBtn}>{children}</Button>
 
             <DropdownButton as={ButtonGroup} title="Title" id="bg-nested-dropdown">
                 <Dropdown.Item eventKey="1">Manager</Dropdown.Item>
