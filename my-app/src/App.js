@@ -44,7 +44,11 @@ function App() {
 
   }, [search])
 
-
+  // Resets to all the team cards
+  const resetTeam = () => {
+    setTeam(teamArray);
+    setSearch("");
+  }
 
 
   return (
@@ -54,7 +58,9 @@ function App() {
         <FilterBar
           inputValue={search}
           handleInputChange={handleInputChange}
+          resetBtn={resetTeam}
         />
+
         {/* Validation */}
         {warning === false ? null : <h4>Woops, please use letters only. Numbers or special characters won't display results.</h4>}
         {team.length === 0 ? <h4>Looks like we don't have a team member by that name. Please try a different name.</h4> : null}

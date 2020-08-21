@@ -6,7 +6,7 @@ import DropdownButton from 'react-bootstrap/DropdownButton'
 import Dropdown from 'react-bootstrap/Dropdown'
 
 // This button group allows the user to filter names from A-Z, Z-A, filter by Job Title, filter by Location Title, and reset all values.
-function FilterBtnGroup() {
+function FilterBtnGroup({ resetBtn }) {
     return (
         <ButtonGroup className="margin full-width">
             <Button>A-Z Sort</Button>
@@ -22,7 +22,7 @@ function FilterBtnGroup() {
                 <Dropdown.Item eventKey="2">Las Vegas</Dropdown.Item>
                 <Dropdown.Item eventKey="3">Chicago</Dropdown.Item>
             </DropdownButton>
-            <Button>Reset</Button>
+            <Button onClick={resetBtn}>Reset</Button>
         </ButtonGroup>
 
 
