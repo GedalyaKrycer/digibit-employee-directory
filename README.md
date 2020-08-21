@@ -1,7 +1,10 @@
 # unit-19-react-homework-employee-directory
 
+> ### [Visit Deployed Site](https://unit-19-react-homework-employee-directory.netlify.app)
+
 ## Objective 
 Build an employee directory webpage from scratch using React. 
+
 
 ## Project Details
 
