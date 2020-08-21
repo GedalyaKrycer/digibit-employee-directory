@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from "./components/Header";
 import Main from "./components/Main";
 import FilterBar from "./components/FilterBar";
@@ -8,15 +8,43 @@ import teamArray from "./team.json";
 
 
 function App() {
-  const [team, setTeam] = useState(
-    teamArray
-  );
+  const [team, setTeam] = useState(teamArray);
+
+  const [search, setSearch] = useState('');
+  // const [searchResults, setSearchResults] = useState([]);
+
+  const handleInputChange = event => {
+    setSearch(event.target.value);
+  };
+
+  useEffect(() => {
+    if (!search) {
+      return;
+    }
+
+    const results = team.filter(person =>
+      person.name.toLowerCase().includes(search)
+    );
+    setTeam(results);
+
+
+  }, [search])
+
+
+
+  // const dynamicSearch = () => {
+  //   return 
+  // }
+
 
   return (
     <>
       <Header />
       <Main>
-        <FilterBar />
+        <FilterBar
+          inputValue={search}
+          handleInputChange={handleInputChange}
+        />
         <CardWrapper>
           {team.map(person => (
             <TeamCard

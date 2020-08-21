@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Richard Stevens",
+        "name": "richard stevens",
         "title": "Manager",
         "location": "New York",
         "phone": "(516) 555–1234",
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "name": "Jocelyn Curtis",
+        "name": "jocelyn curtis",
         "title": "Designer",
         "location": "Chicago",
         "phone": "(312) 555–5678",
@@ -19,7 +19,7 @@
     },
     {
         "id": 3,
-        "name": "Nolan Lipshutz",
+        "name": "nolan lipshutz",
         "title": "Manager",
         "location": "Las Vegas",
         "phone": "(702) 555–9101",
@@ -28,7 +28,7 @@
     },
     {
         "id": 4,
-        "name": "Jakob Philips",
+        "name": "jakob philips",
         "title": "Designer",
         "location": "Texas",
         "phone": "(214) 555–1213",
@@ -37,7 +37,7 @@
     },
     {
         "id": 5,
-        "name": "Lincoln Aminoff",
+        "name": "lincoln aminoff",
         "title": "Designer",
         "location": "Chicago",
         "phone": "(312) 555–1516",
@@ -46,7 +46,7 @@
     },
     {
         "id": 6,
-        "name": "Rayna Carder",
+        "name": "rayna carder",
         "title": "Developer",
         "location": "Texas",
         "phone": "(214) 555–1718",
@@ -55,7 +55,7 @@
     },
     {
         "id": 7,
-        "name": "Carter Gouse",
+        "name": "carter gouse",
         "title": "Manager",
         "location": "Las Vegas",
         "phone": "(702) 555–1920",
@@ -64,7 +64,7 @@
     },
     {
         "id": 8,
-        "name": "Desirae Westervelt",
+        "name": "desirae westervelt",
         "title": "Developer",
         "location": "New York",
         "phone": "(516) 555–2122",
@@ -73,7 +73,7 @@
     },
     {
         "id": 9,
-        "name": "Kierra George",
+        "name": "kierra george",
         "title": "Developer",
         "location": "Las Vegas",
         "phone": "(702) 555–2324",
@@ -82,7 +82,7 @@
     },
     {
         "id": 10,
-        "name": "Roger Mango",
+        "name": "roger mango",
         "title": "Manager",
         "location": "Chicago",
         "phone": "(312) 555–2526",
@@ -91,7 +91,7 @@
     },
     {
         "id": 11,
-        "name": "Ashlynn Saris",
+        "name": "ashlynn saris",
         "title": "Developer",
         "location": "Texas",
         "phone": "(214) 555–2728",
@@ -100,7 +100,7 @@
     },
     {
         "id": 12,
-        "name": "Miracle Geidt",
+        "name": "miracle geidt",
         "title": "Developer",
         "location": "New York",
         "phone": "(516) 555–2930",

@@ -6,11 +6,13 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 // This combines the filter search input and the filter button group of dropdowns and buttons. 
-function FilterBar() {
+function FilterBar({inputValue, handleInputChange}) {
     return (
         <Row>
             <Col md={4}>
-                <FilterSearch />
+                <FilterSearch 
+                inputValue={inputValue}
+                handleInputChange={handleInputChange}/>
             </Col>
             <Col md={8} className="button-group">
                 <FilterBtnGroup />
