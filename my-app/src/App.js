@@ -7,6 +7,7 @@ import TeamCard from "./components/TeamCard";
 import teamArray from "./team.json";
 
 
+
 function App() {
   // Handles which cards get wrapped to
   const [team, setTeam] = useState(teamArray);
@@ -73,7 +74,7 @@ function App() {
 
   // Filters based on dropdown selected 
   const handleSelectDropdown = (eventKey) => {
-    
+
     switch (eventKey) {
       case "Manager":
         setTeam([...team].filter(person =>
@@ -136,20 +137,21 @@ function App() {
         {/* Validation */}
         {warning === false ? null : <h4>Woops, please use letters only. Numbers or special characters won't display results.</h4>}
         {team.length === 0 ? <h4>Looks like we don't have this team member. Please try a different name or hit "Reset".</h4> : null}
-
-        <CardWrapper>
-          {team.map(person => (
-            <TeamCard
-              key={person.id}
-              img={person.img}
-              name={person.name}
-              title={person.title}
-              location={person.location}
-              phone={person.phone}
-              email={person.email}
-            />
-          ))}
-        </CardWrapper>
+        
+          <CardWrapper>
+            {team.map(person => (
+              <TeamCard
+                key={person.id}
+                img={person.img}
+                name={person.name}
+                title={person.title}
+                location={person.location}
+                phone={person.phone}
+                email={person.email}
+              />
+            ))}
+          </CardWrapper>
+        
       </Main>
     </>
   );

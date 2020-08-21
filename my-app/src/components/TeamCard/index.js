@@ -1,17 +1,20 @@
 import React from 'react';
 import './style.css';
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
+import LazyLoad from 'react-lazyload';
 
 
 
 function TeamCard({ name, title, location, phone, email, img }) {
 
-    
-
     return (
+
         <div className="card-container">
             <div className="card-intro text-color">
-                <img src={img} alt={name} />
+                <LazyLoad height="41">
+                    <img src={img} alt={name} />
+                </LazyLoad >
+
                 <h2>{name}</h2>
                 <h3>{title}</h3>
             </div>
@@ -24,6 +27,7 @@ function TeamCard({ name, title, location, phone, email, img }) {
                 </ul>
             </div>
         </div>
+
     )
 }
 
