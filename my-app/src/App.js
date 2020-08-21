@@ -12,6 +12,7 @@ function App() {
 
   const [search, setSearch] = useState('');
   const [warning, setWarning] = useState(false);
+  const [nameSort, setNameSort] = useState("AZ");
 
   const handleInputChange = event => {
     setSearch(event.target.value);
@@ -48,6 +49,23 @@ function App() {
   const resetTeam = () => {
     setTeam(teamArray);
     setSearch("");
+    console.log("ResetTeam function ran");
+  }
+
+
+  const sortNames = () => {
+    switch (nameSort) {
+      case 'AZ':
+        setTeam([...team].sort((a, b) => (a.name > b.name) ? 1 : -1));
+        setNameSort("ZA")
+        break;
+      case 'ZA':
+        setTeam([...team].sort((a, b) => (a.name < b.name) ? 1 : -1))
+        setNameSort("AZ")
+        break;
+      default:
+        return;
+    }
   }
 
 
@@ -59,6 +77,7 @@ function App() {
           inputValue={search}
           handleInputChange={handleInputChange}
           resetBtn={resetTeam}
+          sortBtn={sortNames}
         />
 
         {/* Validation */}

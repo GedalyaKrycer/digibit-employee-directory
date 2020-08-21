@@ -33,6 +33,7 @@ Build an employee directory webpage from scratch using React.
 
     * If the input value does not match any values is a special character or number, a warning message is provided and the input does not go through. Instead all the team members are reloaded. 
 
+* Reset button clears out search field and displays the original team cards.
 
 
 ## In Progress
