@@ -3,7 +3,7 @@
 ## Objective 
 Build an employee directory webpage from scratch using React. 
 
-## Highlights
+## Project Details
 
 * Features a custom logo and color scheme that I designed for this project. 
 
@@ -39,13 +39,14 @@ Build an employee directory webpage from scratch using React.
     
     * Text in the button changes based on the sorting method selected. 
 
+* Dropdowns filter team members by their titles or by their location
+
+---
+
+## Demos
+Coming Soon
 
 ## In Progress
 
-* Have Jobs types filter via dropdown
-
-* Have Locations types filter via dropdown
-
-* Have all filters, search and alphibetical order reset on the "reset" button
 
 * Lazy load images
