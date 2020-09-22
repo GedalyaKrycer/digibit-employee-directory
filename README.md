@@ -1,4 +1,4 @@
-# unit-19-react-homework-employee-directory
+# DigiBit React.js Employee Directory
 
 > ### [Visit Deployed Site](https://unit-19-react-homework-employee-directory.netlify.app)
 
