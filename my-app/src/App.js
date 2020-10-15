@@ -77,32 +77,32 @@ function App() {
 
     switch (eventKey) {
       case "Manager":
-        setTeam([...team].filter(person =>
+        setTeam([...teamArray].filter(person =>
           person.title.includes("Manager")
         ));
         break;
       case "Designer":
-        setTeam([...team].filter(person =>
+        setTeam([...teamArray].filter(person =>
           person.title.includes("Designer")
         ));
         break;
       case "Developer":
-        setTeam([...team].filter(person =>
+        setTeam([...teamArray].filter(person =>
           person.title.includes("Developer")
         ));
         break;
       case "New York":
-        setTeam([...team].filter(person =>
+        setTeam([...teamArray].filter(person =>
           person.location.includes("New York")
         ));
         break;
       case "Las Vegas":
-        setTeam([...team].filter(person =>
+        setTeam([...teamArray].filter(person =>
           person.location.includes("Las Vegas")
         ));
         break;
       case "Chicago":
-        setTeam([...team].filter(person =>
+        setTeam([...teamArray].filter(person =>
           person.location.includes("Chicago")
         ));
         break;
