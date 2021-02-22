@@ -36,13 +36,13 @@ function App() {
     }
 
     // Validates that the input is not a valid letter. If so it sets the warning boolean to true, resets the team array and clears the search field, before returning 
-    if (!/^[a-zA-Z]*$/g.test(search)) {
-      setSearch("");
-      setTeam(teamArray);
-      setWarning(true);
-      return;
+    // if (!/^[a-zA-Z]*$/g.test(search)) {
+    //   setSearch("");
+    //   setTeam(teamArray);
+    //   setWarning(true);
+    //   return;
 
-    }
+    // }
 
     // Powers the search to only show the people that match the search value state
     const results = team.filter(person =>
@@ -135,7 +135,7 @@ function App() {
           handleSelectDropdown={handleSelectDropdown} />
 
         {/* Validation */}
-        {warning === false ? null : <h4>Woops, please use letters only. Numbers or special characters won't display results.</h4>}
+        {/* {warning === false ? null : <h4>Woops, please use letters only. Numbers or special characters won't display results.</h4>} */}
         {team.length === 0 ? <h4>Looks like we don't have this team member. Please try a different name or hit "Reset".</h4> : null}
         
           <CardWrapper>
