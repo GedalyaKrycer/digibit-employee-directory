@@ -5,6 +5,7 @@ import FilterBar from "./components/FilterBar";
 import CardWrapper from "./components/CardWrapper";
 import TeamCard from "./components/TeamCard";
 import teamArray from "./team.json";
+// import { fetchKlikaMembers } from "./service/fetchMembers"
 
 
 
@@ -71,55 +72,26 @@ function App() {
     }
   }
 
-
-  // Filters based on dropdown selected 
-  const handleSelectDropdown = (eventKey) => {
-
-    switch (eventKey) {
-      case "Manager":
-        setTeam([...teamArray].filter(person =>
-          person.title.includes("Manager")
-        ));
-        break;
-      case "Designer":
-        setTeam([...teamArray].filter(person =>
-          person.title.includes("Designer")
-        ));
-        break;
-      case "Developer":
-        setTeam([...teamArray].filter(person =>
-          person.title.includes("Developer")
-        ));
-        break;
-      case "New York":
-        setTeam([...teamArray].filter(person =>
-          person.location.includes("New York")
-        ));
-        break;
-      case "Las Vegas":
-        setTeam([...teamArray].filter(person =>
-          person.location.includes("Las Vegas")
-        ));
-        break;
-      case "Chicago":
-        setTeam([...teamArray].filter(person =>
-          person.location.includes("Chicago")
-        ));
-        break;
-      default:
-        resetTeam();
-        return;
-
-    }
-  }
-
-
   // Resets to all the team cards
   const resetTeam = () => {
     setTeam(teamArray);
     setSearch("");
   }
 
+  // const fetchMembers = async () => {
+  //   // setTeam(teamArray);
+  //   // setSearch("");
+  //   await fetchKlikaMembers()
+  //     .then(res => {
+        
+  //       res.json().then(data => {
+  //         console.log(data);
+
+  //       });
+  //      })
+  // }
+
+  // fetchMembers()
 
 
   return (
@@ -131,8 +103,7 @@ function App() {
           handleInputChange={handleInputChange}
           resetBtn={resetTeam}
           sortBtn={sortNames}
-          children={nameSort === "AZ" ? "Sort A–Z" : "Sort Z–A"}
-          handleSelectDropdown={handleSelectDropdown} />
+          children={nameSort === "AZ" ? "Sort A–Z" : "Sort Z–A"} />
 
         {/* Validation */}
         {/* {warning === false ? null : <h4>Woops, please use letters only. Numbers or special characters won't display results.</h4>} */}
