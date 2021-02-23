@@ -15,7 +15,7 @@ const gsxRowName = (rowName) => {
 const parseMember = (gsxRow) => {
     var member = {}
     rowNames.forEach(rowName => {
-        console.log(gsxRow[gsxRowName(rowName)])
+        // console.log(gsxRow[gsxRowName(rowName)])
         let rowObject = gsxRow[gsxRowName(rowName)]
         member[rowName] = rowObject["$t"]
     })
@@ -27,10 +27,9 @@ export const getMembersList = async () => {
     // setTeam(teamArray);
     // setSearch("");
         var members = []
-        await fetchKlikaMembers()
-            .then(res => res.json())
+        let response = await fetchKlikaMembers()
             .then(data => {
-                console.log(data);
+                // console.log(data);
                 let entries = data["feed"]["entry"]
                 if (entries != null){
                     entries.flatMap(e => {
@@ -39,5 +38,7 @@ export const getMembersList = async () => {
                 }
                 return members
             });
+
+        return response
             
 }

@@ -30,11 +30,16 @@ function App() {
 
   // Runs the first time the app starts or a new search term is provided
   useEffect(() => {
-
     // When the search field (state) is empty the orginal team array is loaded
     if (!search) {
       return setTeam(teamArray);
     }
+    // if(team.length == 0){
+    getMembersList()
+      .then(members => {
+        console.log(members);
+    })
+    // }
 
     // Validates that the input is not a valid letter. If so it sets the warning boolean to true, resets the team array and clears the search field, before returning 
     // if (!/^[a-zA-Z]*$/g.test(search)) {
@@ -92,10 +97,6 @@ function App() {
   // }
 
   // fetchMembers()
-  getMembersList().then(members => {
-    console.log(members);
-    
-  })
   // console.log(members);
   
 
