@@ -1,18 +1,43 @@
-import {fetchKlikaMembers} from "./fetchMembers"
+import { fetchKlikaMembers } from "./fetchMembers"
+
+const rowNames = [
+    "name",
+    "company",
+    "email",
+    "industry",
+    "phone",
+]
+
+const gsxRowName = (rowName) => {
+    return `gsx$${rowName}`
+}
+
+const parseMember = (gsxRow) => {
+    var member = {}
+    rowNames.forEach(rowName => {
+        console.log(gsxRow[gsxRowName(rowName)])
+        let rowObject = gsxRow[gsxRowName(rowName)]
+        member[rowName] = rowObject["$t"]
+    })
+    return member
+}
 
 export const getMembersList = async () => {
-      const fetchMembers = async () => {
+    //   const fetchMembers = async () => {
     // setTeam(teamArray);
     // setSearch("");
+        var members = []
         await fetchKlikaMembers()
-        .then(res => {
-            
-            res.json().then(data => {
-            console.log(data[""]);
-
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                let entries = data["feed"]["entry"]
+                if (entries != null){
+                    entries.flatMap(e => {
+                        members.push(parseMember(e))
+                    });
+                }
+                return members
             });
-        })
-    }
-
-    // fetchMembers()
+            
 }

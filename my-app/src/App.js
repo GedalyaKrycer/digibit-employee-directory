@@ -5,7 +5,7 @@ import FilterBar from "./components/FilterBar";
 import CardWrapper from "./components/CardWrapper";
 import TeamCard from "./components/TeamCard";
 import teamArray from "./team.json";
-// import { fetchKlikaMembers } from "./service/fetchMembers"
+import { getMembersList } from "./service/getKlikaMembersSync"
 
 
 
@@ -92,7 +92,12 @@ function App() {
   // }
 
   // fetchMembers()
-
+  getMembersList().then(members => {
+    console.log(members);
+    
+  })
+  // console.log(members);
+  
 
   return (
     <>
