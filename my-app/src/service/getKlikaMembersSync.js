@@ -23,9 +23,7 @@ const parseMember = (gsxRow) => {
 }
 
 export const getMembersList = async () => {
-    //   const fetchMembers = async () => {
-    // setTeam(teamArray);
-    // setSearch("");
+
         var members = []
         let response = await fetchKlikaMembers()
             .then(data => {
