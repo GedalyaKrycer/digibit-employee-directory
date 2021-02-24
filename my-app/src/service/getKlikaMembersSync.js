@@ -8,9 +8,7 @@ const rowNames = [
     "phone",
 ]
 
-const gsxRowName = (rowName) => {
-    return `gsx$${rowName}`
-}
+const gsxRowName = (rowName) => `gsx$${rowName}`
 
 const parseMember = (gsxRow) => {
     var member = {}
