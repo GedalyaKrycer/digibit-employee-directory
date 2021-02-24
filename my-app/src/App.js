@@ -116,6 +116,9 @@ function App() {
           sortBtn={sortNames}
           children={nameSort === "AZ" ? "Sort A–Z" : "Sort Z–A"} 
         />
+
+        { team.length === 0 && <h4>.לא נמצאו תוצאות</h4>}
+        
         { loading && (
           <div style={{textAlign: "center"}}>
             <Spinner 
@@ -124,8 +127,6 @@ function App() {
             />
           </div>
         )}
-        {team.length === 0 && <h4>.לא נמצאו תוצאות</h4>}
-        
           <CardWrapper>
             { team.map(member => (
                 <TeamCard {...member} />
