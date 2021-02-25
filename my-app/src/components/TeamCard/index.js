@@ -5,18 +5,18 @@ import LazyLoad from 'react-lazyload';
 
 
 
-function TeamCard({ name, company, industry, phone, email, img }) {
+function TeamCard({ name, company, industry, phone, email, userimageurl }) {
 
     return (
 
         <div className="card-container">
             <div className="card-intro text-color">
-            { img && (
+            { userimageurl && (
                 <LazyLoad height="41">
-                    <img src={img} alt={name} />
+                    <img src={userimageurl} alt={name} />
                 </LazyLoad >
             )}
-            { !img && <FaUserCircle size={"8rem"}/> }
+            { !userimageurl && <FaUserCircle size={"8rem"}/> }
 
                 <h2>{name}</h2>
                 <h3>{company}</h3>
